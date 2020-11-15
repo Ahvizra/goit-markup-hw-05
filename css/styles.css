@@ -24,6 +24,7 @@ p {
 }
 a {
   margin: 0;
+  text-decoration: none;
 }
 figure {
   margin: 0px;
@@ -165,6 +166,7 @@ body {
   letter-spacing: 0.06em;
   padding-top: 20px;
   padding-left: 24px;
+  color: var(--black);
 }
 .prod-exp {
   font-size: 16px;
@@ -452,7 +454,7 @@ body {
   width: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
-  border: 1px #eeeeee;
+  border: 1px solid #eeeeee;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
