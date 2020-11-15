@@ -244,7 +244,8 @@ body {
   bottom: -29px;
   left: 0;
 }
-.menu-link:hover::after {
+.menu-link:hover::after,
+.menu-link:focus::after {
   content: "";
   display: block;
   position: absolute;
